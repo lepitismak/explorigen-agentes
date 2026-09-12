@@ -1,6 +1,6 @@
 ---
 name: explorigen-prontidao-para-agentes
-description: Consulta e interpreta a leitura de prontidão de um site para agentes de IA (nota 0-100 e grau A+ a F do instrumento público ora.ai) pela ExploriGen, por três caminhos: GET /api/ia/leitura, a ferramenta MCP get_readiness_score e a página /diagnostico/ia. Use quando alguém perguntar se um site está pronto para agentes, o que a nota significa, o que ela não mede ou quando vale pedir o DPA (Auditoria de Presença Digital). Read and interpret a domain's agent-readiness score via ExploriGen; the lookup never triggers a scan.
+description: "Consulta e interpreta a leitura de prontidão de um site para agentes de IA (nota 0-100 e grau A+ a F do instrumento público ora.ai) pela ExploriGen, por três caminhos: GET /api/ia/leitura, a ferramenta MCP get_readiness_score e a página /diagnostico/ia. Use quando alguém perguntar se um site está pronto para agentes, o que a nota significa, o que ela não mede ou quando vale pedir o DPA (Auditoria de Presença Digital). Read and interpret a domain's agent-readiness score via ExploriGen; the lookup never triggers a scan."
 metadata:
   author: explorigen
   version: "1.0"
