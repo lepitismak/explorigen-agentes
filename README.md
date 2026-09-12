@@ -1,5 +1,7 @@
 # ExploriGen para agentes de IA
 
+[![skills.sh](https://skills.sh/b/lepitismak/explorigen-agentes)](https://skills.sh/lepitismak/explorigen-agentes)
+
 Este repositório é o pacote público da [ExploriGen](https://explorigen.io) para
 agentes de IA e para quem programa com eles: os dois servidores MCP, as duas
 skills e as regras para agentes de código. Tudo aqui descreve algo que já
@@ -47,7 +49,9 @@ curl -s -X POST https://explorigen.io/mcp \
 Instale com o instalador de skills do seu agente (por exemplo,
 `npx skills add lepitismak/explorigen-agentes`) ou copie a pasta `skills/<nome>` para o
 diretório de skills do agente. As mesmas skills são servidas em
-`https://explorigen.io/.well-known/agent-skills/index.json`, com digest sha256.
+`https://explorigen.io/.well-known/agent-skills/index.json`, com digest sha256,
+e o diretório lista as duas em
+<https://skills.sh/lepitismak/explorigen-agentes>.
 
 ## API REST, sandbox e autenticação
 
