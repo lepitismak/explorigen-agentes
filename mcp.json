@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "explorigen": {
+      "type": "http",
+      "url": "https://explorigen.io/mcp",
+      "description": "ExploriGen — produto (product): leitura de prontidão gravada de um domínio, busca e leitura de páginas, soluções, preços públicos e como contratar. Somente leitura, sem autenticação. Read-only, no auth."
+    },
+    "explorigen-docs": {
+      "type": "http",
+      "url": "https://explorigen.io/mcp/docs",
+      "description": "ExploriGen — documentação (docs): lista, lê e busca as páginas públicas de explorigen.io e o llms.txt. Somente leitura, sem autenticação. Read-only, no auth."
+    }
+  }
+}

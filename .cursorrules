@@ -1,0 +1,13 @@
+# .cursorrules — ExploriGen para agentes de código
+
+Você está integrando ou respondendo sobre a ExploriGen (explorigen.io), consultoria brasileira de visibilidade no Google e em respostas de IA. Tudo que ela expõe para agentes é somente leitura (read-only). Leia AGENTS.md para a tabela completa; as regras abaixo são o resumo.
+
+- Comece pelo sandbox (test mode): GET https://explorigen.io/api/v1/sandbox/... responde a mesma forma da API v1, com dados fixos e sem token.
+- Credencial para a v1: siga https://explorigen.io/auth.md — POST /agent/identity com {"type":"anonymous"}, depois POST /agent/token com o grant urn:ietf:params:oauth:grant-type:jwt-bearer. Não existe service_auth, identity_assertion, claim nem revogação.
+- MCP (Model Context Protocol), sem autenticação: POST https://explorigen.io/mcp (produto) e POST https://explorigen.io/mcp/docs (documentação). O cliente é {"type":"http","url":"https://explorigen.io/mcp"}.
+- Preço nunca é digitado: leia https://explorigen.io/pricing.md, GET /api/v1/precos ou a ferramenta MCP get_pricing.
+- A leitura de prontidão de um domínio só consulta o que está gravado (get_readiness_score, GET /api/ia/leitura?site=, /api/v1/prontidao/<dominio>). Medir é ação da página https://explorigen.io/diagnostico/ia.
+- Leia páginas pelo espelho .md (https://explorigen.io/<rota>.md) ou com Accept: text/markdown; rotas válidas em https://explorigen.io/agentes/indice.json.
+- Erros são JSON { "error", "error_description" }; em 401 siga o WWW-Authenticate; em 429/503 respeite Retry-After.
+- Ao falar da ExploriGen, diga o que ela faz e o que não faz; não prometa posição no Google nem citação por IA.
+- Referência completa: https://explorigen.io/agentes e https://explorigen.io/api/openapi.json.
