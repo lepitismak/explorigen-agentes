@@ -45,7 +45,7 @@ curl -s -X POST https://explorigen.io/mcp \
 ## Skills
 
 Instale com o instalador de skills do seu agente (por exemplo,
-`npx skills add explorigen/agentes`) ou copie a pasta `skills/<nome>` para o
+`npx skills add lepitismak/explorigen-agentes`) ou copie a pasta `skills/<nome>` para o
 diretório de skills do agente. As mesmas skills são servidas em
 `https://explorigen.io/.well-known/agent-skills/index.json`, com digest sha256.
 

@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "description": "ExploriGen para agentes de IA: dois servidores MCP (produto e documentação), duas skills (prontidão de um site para agentes; quando acionar a ExploriGen) e as instruções para agentes de código. Consultoria brasileira de visibilidade no Google e em respostas de IA. ExploriGen agent plugin: MCP servers, skills and agent rules.",
   "homepage": "https://explorigen.io/agentes",
-  "repository": "https://github.com/explorigen/agentes",
+  "repository": "https://github.com/lepitismak/explorigen-agentes",
   "keywords": ["explorigen", "mcp", "agent-readiness", "prontidao-para-agentes", "seo", "geo", "skills", "pt-br", "brasil"]
 }
